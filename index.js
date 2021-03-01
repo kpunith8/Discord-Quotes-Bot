@@ -27,6 +27,10 @@ client.on("message", (msg) => {
     if (CMD_NAME === "welcome") {
       msg.channel.send("Welcome to the channel :tada:");
     }
+
+    if (CMD_NAME === "fun") {
+        msg.channel.send("Enjoy the life!!");
+      }
   }
 });
 
