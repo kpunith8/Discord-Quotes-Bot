@@ -1,0 +1,20 @@
+{
+  "name": "discord-quotes-bot",
+  "version": "1.0.0",
+  "description": "Discord quotes bot using node and discord.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "Discord",
+    "Quotes",
+    "BOT"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0"
+  }
+}
